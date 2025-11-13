@@ -33,11 +33,26 @@ website:
         text: Imprint
       - href: privacy-statement.html
         text: Privacy Statement
-    left:
-      - text: "© 2025 AI-SIC"
+    left: |
+      <div style="display:flex; align-items:center; gap:12px;">
+      <div>
+      <a href="https://www.new-data-spaces.de/en-us/Start/Projects/AI-SIC">
+         <img src="images/Logo_NewDataSpaces_RGB.png" height="40">
+      </a>
+      </div>
+      <div>
+      <a href="https://www.dfg.de/en">
+          <img src="images/dfg_logo_schriftzug_blau_foerderung_en.jpg" height="40" style="margin-left:10px;">
+      </a>
+      </div>
+      <div>
+      <p>
+          © 2025 AI-SIC
+      </p>
+      </div>
+      </div>
     right:
       - text: "Built with Quarto, inspired by martenw.com"
-
 
 metadata:
   description: >
