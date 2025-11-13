@@ -51,3 +51,4 @@ AI-SIC uses qualitative data and conducts cognitive interviews based on web-base
 - [Leonie Steinbrinker](https://www.uni-leipzig.de/personenprofil/mitarbeiter/leonie-steinbrinker)
 - [Donata Perakis](https://www.lifbi.de/de-de/Start/Institut/Personen/Person/account/1596)
 - Peter Kannewitz
+- Niklas Ippisch
