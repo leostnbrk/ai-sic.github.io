@@ -1,10 +1,10 @@
 ---
-title: "Grid Testing Active Learning Settings for qualitative Coding"
+title: "Grid Testing Active Learning Settings for Qualitative Coding"
 date: "2026-01-16"
-description: "Sharing results from our active learning experiments"
+description: "Sharing results from our active learning experiments."
 author-title: Peter Kannewitz
 author: '<a href="https://ai-sic.github.io/">aisic</a>'
-image: "images/logit_head_models.png"
+image: "images/training_time_stacked_sorted_minutes.png"
 bibliography: ai_sic.bib
 ---
 
@@ -12,7 +12,7 @@ bibliography: ai_sic.bib
 
 After completing our preliminary work on transcription, we can now shift focus to the next task: coding our interviews. The aim is to assign labels to interview segments that reflect our dimensions of interest. To align our methodological approach with the needs of our sociological researchers, we decided to use active learning for the labeling process.
 
-Active learning enables human intervention during coding while simultaneously training a machine learning model. Over time, this model can support --and potentially partially automate-- the coding process. In this short research notice, we present our findings on different active learning configurations and explain how we identified a suitable setup for our use case.
+Active learning enables human intervention during coding while simultaneously training a machine learning model. Over time, this model can support -- and potentially partially automate -- the coding process. In this short research notice, we present our findings on different active learning configurations and explain how we identified a suitable setup for our use case.
 
 ## Test Setting
 
@@ -30,13 +30,13 @@ From these interviews, we constructed training and test splits. For coding, we s
 
 During data preparation, it became clear that inter-coder agreement would be a central concern for evaluating model performance. A key question is whether a model trained on data labeled by one coder can be meaningfully evaluated on data labeled by another, especially if their interpretations of the codes differ. Even within annotations produced by the same coder, consistency cannot be taken for granted: perceptions of concepts may evolve during the labeling process, and subtle textual differences can lead to different label assignments.
 
-To allow for later analysis of these effects, we tracked which coder labeled each example. For the experiments reported here, we restricted evaluation to a smaller subset of the test data annotated by a single coder, providing a more stable reference point.
+To allow for later analysis of these effects, we tracked which coder labeled each example. For the experiments reported here, we restricted evaluation to a smaller subset of the test data annotated by a single coder, providing a more stable eference point.
 
 ### Model Architecture and Active Learning Configuration
 
 Turning to the technical setup, our task involves extracting nuanced information from natural language, making transformer-based models a natural choice. Within small-text, two transformer-based approaches are available: a token-level transformer integration (`TransformerBasedClassificationFactory`) and sentence transformers trained using the SetFit paradigm (`SetFitClassificationFactory`).
 
-Our experiments focus on sentence transformers, as prior work suggests they outperform the token-based approach in low-data scenarios (ref). Nevertheless, we included one standard transformer model for comparison. Since each interview segment may receive multiple codes, the task is formulated as a multi-label classification problem.
+Our experiments focus on sentence transformers, as prior work suggests they outperform the token-based approach in low-data scenarios @setfit. Nevertheless, we included one standard transformer model for comparison. Since each interview segment may receive multiple codes, the task is formulated as a multi-label classification problem.
 
 In addition to text representation, several configuration choices can influence model performance. Each model requires a classification head to map embeddings to label predictions. The default option is a logistic regression head implemented in `sklearn`. As an alternative, we evaluated a differentiable classification head implemented as a linear layer in [`torch`](https://huggingface.co/docs/setfit/en/how_to/classification_heads#differentiable-classification-head). This option allows for end-to-end training of both the embedding model and the classifier and would later enable the computation of integrated gradients for token-level attribution scores.
 
@@ -54,20 +54,18 @@ Figure 1 summarizes the performance of models using a differentiable head, while
 
 Across almost all settings, the `MiniLM` model outperforms the newer `e5` models -- even when compared to the much larger 0.3B-parameter “Medium” variant. The choice of query strategy also has a consistent effect: `CategoryVectorInconsistencyAndRanking` outperforms entropy-based sampling in nearly every configuration.
 
-
-
 :::{.figure}
-![Fig 1](images/diff_head_models_viridis.png){width=70% fig-align="center"}
+![Fig. 1: Macro F1 scores for model settings with differentiable head.](images/diff_head_models_viridis.png){width=130% fig-align="center"}
 :::
 
 :::{.figure}
-![Fig 2](images/logit_head_models.png){width=70% fig-align="center"}
+![Fig. 2: Macro F1 scores for model settings with logistic head.](images/logit_head_models.png){width=130% fig-align="center"}
 :::
 
 Class-wise performance provides additional insight (Figure 3). In particular, the categories “Mental Health” and “Unspecific” are difficult for the models to predict and strongly influence overall performance. This may indicate that these categories are too broadly defined or inconsistently annotated. Despite this, overall F1 scores are relatively high, which is encouraging given the complexity of the task.
 
 :::{.figure}
-![Fig 3](images/logit_classwise_f1_grid.png){width=70% fig-align="center"}
+![Fig. 3: Classwise F1 scores for model settings with logistic head.](images/logit_classwise_f1_grid.png){width=130% fig-align="center"}
 :::
 
 Training time is a crucial practical factor in active learning, as long delays between iterations disrupt the annotation workflow. As shown in Figure 4, training time largely scales with the number of model parameters, with the notable exception of the 0.3B `e5-base` model. In the SetFit framework, training time increases non-linearly because the number of contrastive training pairs grows exponentially.
@@ -75,7 +73,7 @@ Training time is a crucial practical factor in active learning, as long delays b
 For the best-performing configuration (`setfit_paraphrase-multilingual-MiniLM-L12-v2_default_CategoryVectorInconsistencyAndRanking`), training time increases from roughly 30 seconds with 45 labeled examples to approximately 4 minutes when using the full set of 145 examples.
 
 :::{.figure}
-![Fig 4](images/training_time_stacked_sorted_minutes.png){width=70% fig-align="center"}
+![Fig. 4: Training time per model configuration.](images/training_time_stacked_sorted_minutes.png){width=130% fig-align="center"}
 :::
 
 ## Concluding Remarks
@@ -86,6 +84,6 @@ Among the tested configurations, the paraphrase-based MiniLM sentence transforme
 
 As we move to real-world annotation, monitoring class-wise performance and uncertainty estimates will be essential. At the same time, the extent to which a trained model can be interpreted as a reflection of an individual coder’s conceptual understanding remains an open and important question.
 
-Finally, while our experiments cover a broad range of settings, it is possible that relevant configurations were missed. We therefore welcome feedback from others working on similar problems. One promising direction for further experimentation is the multi-label strategy itself, as correlated codes may benefit from approaches beyond the default (one-vs-rest)[https://huggingface.co/docs/setfit/how_to/multilabel] formulation.
+Finally, while our experiments cover a broad range of settings, it is possible that relevant configurations were missed. We therefore welcome feedback from others working on similar problems. One promising direction for further experimentation is the multi-label strategy itself, as correlated codes may benefit from approaches beyond the default [one-vs-rest](https://huggingface.co/docs/setfit/how_to/multilabel) formulation.
 
 The code for these experiments is available at: [https://github.com/AI-SIC/active-learning-experiments](https://github.com/AI-SIC/active-learning-experiments)
