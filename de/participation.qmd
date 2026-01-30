@@ -1,0 +1,67 @@
+---
+pagetitle: "Teilnahme"
+canonical-url: "https://ai-sic.github.io/de/participation.html"
+section-divs: false
+
+
+listing:
+  - id: pdf
+    contents: 
+    - pdf
+    - "!pdf/index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+    fields: [image, title]
+
+toc: false
+
+format: 
+  html:
+    html-math-method: plain
+---
+
+:::: {.content-block}
+
+# Teilnahme an der Studie
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.  
+
+::::
+
+:::: {.content-block}
+
+## Informationen für Teilnehmende
+
+:::{#pdf}
+:::
+
+::::
+
+
+
+# Ansprechpartnerinnen
+
+**Projektkoordination am LIfBi und Ansprechpartnerin**:
+
+Dr. Jacqueline Kroh
+📞  <a href="tel:+4995170060025">+49 951 700600-25</a><br>
+📧  <a href="mailto:jacqueline.kroh@lifbi.de">jacqueline.kroh@lifbi.de</a>
+
+**Projektkoordination der Universität Leipzig**:
+
+Dr. Andreas Niekler, Dr. Stephan Poppe, Prof. Dr. Julia Tuppat
+
+**Ansprechpartner der Universität Leipzig**:
+
+Dr. Stephan Poppe
+📞  <a href="tel:+4995170060025">+49 951 700600-25</a><br>
+📧  <a href="mailto:stephan.poppe@uni-leipzig.de ">stephan.poppe@uni-leipzig.de</a>
+
+

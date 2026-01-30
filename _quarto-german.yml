@@ -18,6 +18,8 @@ website:
         href: de/about.qmd
       - text: kontakt
         href: de/contact.qmd
+      - text: teilnahme
+        href: de/participation.qmd
       - text: de
         href: de/
       - text: en
