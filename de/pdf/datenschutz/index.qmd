@@ -1,6 +1,7 @@
 ---
 title: "Datenschutz"
 toc-title: "Auf dieser Seite"
+image: "lock.png"
 ---
 
 # Informationen 
@@ -9,8 +10,4 @@ Lorem ipsum hier irgendein Text, vielleicht braucht es auch gar nicht das pdf so
 
 <iframe src="/de/pdf/anschreiben/platzhalter.pdf" width="100%" height="800px"></iframe>
 
-
-# Anschreiben Text
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 

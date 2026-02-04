@@ -24,23 +24,37 @@ format:
   html:
     html-math-method: plain
 ---
+
+
+
 :::: {.content-block}
 
-# Participation in our study
+:::{#pdf}
+:::
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  
+[`<button type="button">Participate</button>`{=html}](Link zu Anmeldung?? )
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.  
 
 ::::
 
 :::: {.content-block}
 
-## Informations for participants
 
-:::{#pdf}
-:::
 
+Dear families,
+
+Thank you for your interest in our AI-SIC study! We are very pleased that you visited our website and took the time to learn more about the project.
+
+If you wish, you can consider participating in one of our interviews at any time. Each family that actually participates will receive a voucher worth €10 as a thank-you.
+
+You are also welcome to share our flyer with other interested families in your network. For each family who registers for an interview based on your recommendation, you will receive a €5 voucher as a token of our appreciation.
+
+All important information about the study and the possibility to contact us directly can be found on this page.
+
+Thank you for your support – your contribution is invaluable in helping us gain important insights through our research. If you have any questions or would like further information, please feel free to contact us at any time.
+
+Kind regards,
+Your AI-SIC team
 ::::
 
 

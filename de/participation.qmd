@@ -14,7 +14,7 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-    max-items: 3
+    max-items: 2
     feed: false
     fields: [image, title]
 
@@ -23,26 +23,43 @@ toc: false
 format: 
   html:
     html-math-method: plain
+    
 ---
+
+:::: {.content-block}
+
+:::{#pdf}
+:::
+
+[`<button type="button">Zur Anmeldung</button>`{=html}](Link zu Anmeldung?? )
+
+
+::::
 
 :::: {.content-block}
 
 # Teilnahme an der Studie
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  
+Liebe Familien,
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.  
+vielen Dank, dass Sie sich für unsere Studie AI-SIC interessieren! Wir freuen uns sehr, dass Sie unsere Webseite besucht und sich über das Projekt informiert haben.
+
+Wenn Sie möchten, können Sie sich jederzeit überlegen, an einem unserer Interviews teilzunehmen. Für jede Familie, die tatsächlich teilnimmt, gibt es einen Wunschgutschein im Wert von 10 Euro als Dankeschön.
+
+Zusätzlich können Sie unseren Flyer gerne an andere interessierte Familien in Ihrem Umfeld weiterleiten. Für jede Familie, die sich auf Ihre Empfehlung hin zu einem Interview anmeldet, erhalten Sie als Dankeschön einen Wunschgutschein im Wert von 5 Euro.
+
+Alle wichtigen Informationen zur Studie und die Möglichkeit, direkt mit uns in Kontakt zu treten, finden Sie hier auf dieser Seite.
+
+Vielen Dank für Ihre Unterstützung – Ihre Mithilfe trägt entscheidend dazu bei, dass unsere Forschung wertvolle Einblicke gewinnt. Bei Fragen oder für weitere Informationen können Sie sich jederzeit gerne bei uns melden.
+
+Herzliche Grüße
+
+Ihr Studienteam
+
+
 
 ::::
 
-:::: {.content-block}
-
-## Informationen für Teilnehmende
-
-:::{#pdf}
-:::
-
-::::
 
 
 
@@ -50,9 +67,9 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
 **Projektkoordination am LIfBi und Ansprechpartnerin**:
 
-Dr. Jacqueline Kroh
-📞  <a href="tel:+4995170060025">+49 951 700600-25</a><br>
-📧  <a href="mailto:jacqueline.kroh@lifbi.de">jacqueline.kroh@lifbi.de</a>
+Dr. Jacqueline Kroh  
+📞 [ +49 951 700600-25 ](tel:+4995170060025)  
+📧 [ jacqueline.kroh@lifbi.de ](mailto:jacqueline.kroh@lifbi.de)
 
 **Projektkoordination der Universität Leipzig**:
 
@@ -60,8 +77,9 @@ Dr. Andreas Niekler, Dr. Stephan Poppe, Prof. Dr. Julia Tuppat
 
 **Ansprechpartner der Universität Leipzig**:
 
-Dr. Stephan Poppe
-📞  <a href="tel:+4995170060025">+49 951 700600-25</a><br>
-📧  <a href="mailto:stephan.poppe@uni-leipzig.de ">stephan.poppe@uni-leipzig.de</a>
+Dr. Stephan Poppe  
+📞 [ +49 951 700600-25 ](tel:+4995170060025)  
+📧 [ stephan.poppe@uni-leipzig.de ](mailto:stephan.poppe@uni-leipzig.de)
+
 
 
