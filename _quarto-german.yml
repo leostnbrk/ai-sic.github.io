@@ -7,10 +7,11 @@ website:
   open-graph: true
   site-url: https://ai-sic.github.io/de
   navbar:
+    search: true
     logo: /images/logo.png
     logo-alt: "logo"
     title: ""
-    collapse-below: lg
+    collapse-below: xl
     right:
       - text: artikel
         href: de/articles/index.qmd
