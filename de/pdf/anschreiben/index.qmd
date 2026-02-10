@@ -2,14 +2,50 @@
 title: "Anschreiben"
 toc-title: "Auf dieser Seite"
 image: "letter.png"
+description: ""
 ---
 
-Lorem ipsum hier irgendein Text, vielleicht braucht es auch gar nicht das pdf sondern nur den Text, das weiß ich noch nicht??
-
-<iframe src="/de/pdf/anschreiben/platzhalter.pdf" width="100%" height="800px"></iframe>
+**Bitte um Teilnahme an einer Umfrage im Rahmen des wissenschaftlicen Forschungsprojektes AI-SIC**
 
 
-# Anschreiben Text
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+[`<button type="button">PDF öffnen</button>`{=html}](Anschreiben_Schneeball_Nachziehung.pdf)
+
+Sehr geehrte interessierte Familien,
+
+hiermit möchten wir Sie herzlich einladen, an einer wichtigen wissenschaftlichen Studie zum Thema
+Gesundheit teilzunehmen. Mit Ihrer Unterstützung helfen Sie uns zu verstehen, wie Kinder und Eltern
+über Gesundheit sprechen und welche Erfahrungen dabei wichtig sind. Gleichzeitig tragen Sie dazu bei,
+die Umfrageforschung im Rahmen des Projekts AI-SIC weiterzuentwickeln.
+
+**Was ist AI-SIC?**
+
+Wir möchten erfahren, wie Kinder und Eltern die Gesundheit von Kindern einschätzen und welche
+Gedanken oder Erfahrungen dabei eine Rolle spielen. So können wir besser nachvollziehen, was Familien im Zusammenhang mit Kindergesundheit wichtig ist. Wir möchten außerdem die Auswertung der Interviews verbessern und entwickeln dafür computergestützte, teilweise automatisierte Methoden. Diese helfen uns dabei, Antworten schneller und gründlicher auszuwerten. Für unsere wissenschaftliche Forschung brauchen wir Ihre Unterstützung: Mit Ihrer Teilnahme und der Ihres
+Kindes helfen Sie uns, Forschung über Kinder und Familien weiterzuentwickeln.
+
+**Wie sieht die Befragung aus?**
+
+Wir möchten mit Ihnen und Ihrem Kind ein kurzes Videogespräch führen. Es findet außerhalb der Schulzeit statt – zum Beispiel am Nachmittag. Die Befragung dauert etwa **20 Minuten für Sie und 10 Minuten für Ihr Kind**. Inhaltlich geht es um das Thema Gesundheit. Zusätzlich stellen wir Ihnen einige allgemeine Fragen, zum Beispiel zu Bildung und Herkunft.
+Das Gespräch wird als Ton (Audio) aufgenommen, damit wir es später sorgfältig auswerten können.
+
+**Datenschutz und Umgang mit Ihren Daten**
+
+Für das Projekt AI-SIC ist uns der sorgfältige Umgang mit Ihren Daten besonders wichtig. Alle erhobenen Informationen werden gemäß den Vorgaben der Datenschutz-Grundverordnung (DSGVO) streng vertraulich behandelt und ausschließlich für wissenschaftliche Zwecke verwendet. Zudem werden die Daten vor der Analyse anonymisiert, sodass keine Rückschlüsse auf einzelne Personen möglich sind. Weitere Informationen dazu finden Sie im Datenschutzblatt.
+
+**Wie können Sie uns konkret unterstützen?**
+
+Wenn Sie oder eine andere erziehungsberechtigte Person und Ihr Kind bereit sind, an unserer Studie teilzunehmen, füllen Sie als erziehungsberechtigte Person(en) bitte die [Einwilligungs- und Datenschutzerklärung für Eltern](https://umfrage.uni-leipzig.de/index.php/695328?lang=de) aus. Sollte Ihr Kind 13 Jahre oder älter sein, füllt er oder sie bitte zusätzlich die [Einwilligungserklärung des Kindes](https://umfrage.uni-leipzig.de/index.php/998151?lang=de) aus; sollte Ihr Kind unter 13 Jahre alt sein, reicht die elterliche Einwilligungserklärung aus. Sie können diese über die Links digital ausfüllen. Selbstverständlich sind Ihre Teilnahme und die Ihres Kindes freiwillig. Bei Nichtteilnahme entstehen Ihnen sowie Ihrem Kind natürlich keinerlei Nachteile.
+
+
+**Dankeschön für Ihre Unterstützung**
+
+Die Interviews werden bis mindestens Ende März 2026 durchgeführt. Falls Sie noch Fragen haben, stehen Ihnen Dr. Jacqueline Kroh ([jacqueline.kroh@lifbi.de](mailto:jacqueline.kroh@lifbi.de), [+49 951 700600-25](tel:+4995170060025)) und Donata Perakis ([donata.perakis@lifbi.de](mailto:donata.perakis@lifbi.de), [+49 951 700601-36](tel:+4995170060136)) gerne zur Verfügung. Wenn Sie sich für eine Teilnahme entscheiden, erhalten Sie im Anschluss an die Befragung als Dankeschön einen Wunschgutschein([www.wunschgutschein.de](https://www.wunschgutschein.de/)) im Wert von 10 €. Empfehlen Sie unsere Studie anschließend weiter, bedanken wir uns für jede neu geworbene Familie, die ein Interview mit uns führt, mit einem weiteren Wunschgutschein im Wert von 5 €.
+
+Wir danken Ihnen herzlich für Ihre Unterstützung bei diesem wichtigen Forschungsprojekt!
+
+Mit freundlichen Grüßen
+
+Dr. Jacqueline Kroh<br>
+*Projektkoordination des Projektes AI-SIC am Leibniz-Institut für Bildungsverläufe*
 

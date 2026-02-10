@@ -1,0 +1,11 @@
+---
+sidebar: false
+page-layout: article
+toc: false
+pagetitle: Einverständnis
+---
+
+
+# Danke tschüss
+
+
