@@ -370,6 +370,11 @@ $magenta: rgb(160, 47, 111);
 
 // Navbar and Footer
 
+#quarto-header>nav {
+    padding-left:0em;
+    padding-right:1em;
+}
+
 .navbar {
   font-family: $font-family-sans-serif;
   text-transform: lowercase;
@@ -385,13 +390,14 @@ $magenta: rgb(160, 47, 111);
     color: $aisic-dark;
   }
   a:hover {
-    text-decoration: underline solid $aisic-color;
+    text-decoration: underline solid $aisic-color;  
   }
   .navbar-brand {
     // position in middle always
     position: absolute;
-    //left: 50%;
-    margin-left: -30px !important;  /* 50% of your logo width */
+    left: 50%;
+    transform: translateX(-50%);
+    //margin-left: -30px !important;  /*se interactione with "collapse-below" option in yml*/
     .navbar-logo {
       max-height: 60px;
     }
