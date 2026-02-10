@@ -472,6 +472,14 @@ $magenta: rgb(160, 47, 111);
   color: $aisic-dark;
 }
 
+/* aisic-box.css */
+.aisic-box {
+  border: 2px solid $aisic-color;
+  background-color: $aisic-light-secondary;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
 // General
 
 body {
@@ -605,4 +613,8 @@ pre code {
 
 .navbar-toggler {
   box-shadow: none;
+}
+
+.caption{
+   text-align: center;
 }

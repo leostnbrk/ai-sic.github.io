@@ -17,6 +17,8 @@ website:
         href: articles/index.qmd
       - text: about
         href: about.qmd
+      #- text: participation
+       # href: participation.qmd
       - text: contact
         href: contact.qmd
       - text: de
@@ -48,7 +50,7 @@ website:
       </div>
       <div>
       <p>
-          © 2025 AI-SIC
+          © 2026 AI-SIC
       </p>
       </div>
       </div>
@@ -96,3 +98,4 @@ link-external-newwindow: true
 
 execute: 
   freeze: auto
+

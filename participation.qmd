@@ -1,0 +1,80 @@
+---
+pagetitle: "Participation"
+canonical-url: "https://ai-sic.github.io/participation.html"
+section-divs: false
+
+
+listing:
+  - id: pdf
+    contents: 
+    - pdf
+    - "!pdf/index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 2
+    feed: false
+    fields: [image, title]
+
+toc: false
+
+format: 
+  html:
+    html-math-method: plain
+---
+
+
+
+:::: {.content-block}
+
+:::{#pdf}
+:::
+
+[`<button type="button">Participate</button>`{=html}](Link zu Anmeldung?? )
+
+
+::::
+
+:::: {.content-block}
+
+
+
+Dear families,
+
+Thank you for your interest in our AI-SIC study! We are very pleased that you visited our website and took the time to learn more about the project.
+
+If you wish, you can consider participating in one of our interviews at any time. Each family that actually participates will receive a voucher worth €10 as a thank-you.
+
+You are also welcome to share our flyer with other interested families in your network. For each family who registers for an interview based on your recommendation, you will receive a €5 voucher as a token of our appreciation.
+
+All important information about the study and the possibility to contact us directly can be found on this page.
+
+Thank you for your support – your contribution is invaluable in helping us gain important insights through our research. If you have any questions or would like further information, please feel free to contact us at any time.
+
+Kind regards,
+Your AI-SIC team
+::::
+
+
+
+# Contact
+
+**Contact and project lead LIfBi**:
+
+Dr. Jacqueline Kroh
+📞  <a href="tel:+4995170060025">+49 951 700600-25</a><br>
+📧  <a href="mailto:jacqueline.kroh@lifbi.de">jacqueline.kroh@lifbi.de</a>
+
+**Project lead Leipzig University**:
+
+Dr. Andreas Niekler, Dr. Stephan Poppe, Prof. Dr. Julia Tuppat
+
+**Contact Leizig University**:
+
+Dr. Stephan Poppe
+📞  <a href="tel:+4995170060025">+49 951 700600-25</a><br>
+📧  <a href="mailto:stephan.poppe@uni-leipzig.de ">stephan.poppe@uni-leipzig.de</a>
+
+

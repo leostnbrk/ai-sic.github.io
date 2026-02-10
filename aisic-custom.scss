@@ -390,7 +390,7 @@ $magenta: rgb(160, 47, 111);
     color: $aisic-dark;
   }
   a:hover {
-    text-decoration: underline solid $aisic-color;
+    text-decoration: underline solid $aisic-color;  
   }
   .navbar-brand {
     // position in middle always
@@ -402,6 +402,7 @@ $magenta: rgb(160, 47, 111);
       max-height: 60px;
     }
   }
+  
 }
 
 .footer {
@@ -470,6 +471,14 @@ $magenta: rgb(160, 47, 111);
   font-family: $font-family-sans-serif;
   font-weight: 300;
   color: $aisic-dark;
+}
+
+/* aisic-box.css */
+.aisic-box {
+  border: 2px solid $aisic-color;
+  background-color: $aisic-light-secondary;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 // General
@@ -605,4 +614,9 @@ pre code {
 
 .navbar-toggler {
   box-shadow: none;
+}
+
+
+.caption{
+   text-align: center;
 }

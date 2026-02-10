@@ -19,6 +19,8 @@ website:
         href: de/about.qmd
       - text: kontakt
         href: de/contact.qmd
+      - text: teilnahme
+        href: de/participation.qmd
       - text: de
         href: de/
       - text: en
@@ -48,7 +50,7 @@ website:
       </div>
       <div>
       <p>
-          © 2025 AI-SIC
+          © 2026 AI-SIC
       </p>
       </div>
       </div>
