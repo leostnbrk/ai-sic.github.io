@@ -7,8 +7,6 @@ pagetitle: Einverständnis
 format:
   html:
     page-layout: full
-    grid:
-      gutter-width: 10rem
 
 ---
 :::: {.content-block}
@@ -16,49 +14,55 @@ format:
 ## Herzlichen Dank für Ihre Teilnahme an unserer Studie!
 
 Über den **untenstehenden Link** gelangen Sie zum Online-Formular für die Einverständniserklärung.
-Bitte füllen Sie das Formular für sich aus.
+Bitte füllen Sie das Formular für sich aus und tragen Sie dort auch Ihre **Kontaktinformationen** ein, damit wir Sie für die weitere Organisation des Interviews erreichen können.
 
 Falls Ihr Kind **13 Jahre oder älter** ist, füllt Ihr Kind **zusätzlich** ein eigenes Einverständnisformular aus.
 
 
 Ihre Angaben werden über eine geschützte Verbindung an uns übermittelt und nur für die Organisation und Durchführung der Interviews verwendet. Nach Abschluss der Befragung werden Ihre Kontaktdaten spätestens am **31.03.2026** gelöscht.
 
+**Wie geht es nach dem Absenden weiter?**<br>
+Nach Eingang Ihrer Einverständniserklärung wird sich eine Interviewerin oder ein Interviewer bei Ihnen melden, um einen Termin für das Videointerview zu vereinbaren. Anschließend erhalten Sie eine Bestätigung per E-Mail mit allen wichtigen Informationen sowie dem Zugangslink zum Videointerview. Zum vereinbarten Termin müssen Sie dann lediglich über diesen Link dem Videointerview beitreten.
+
 
 ::::
 
 
-::: {.content-block}
 
-::: columns
+:::: {.content-block}
 
-::: column
-<div style="text-align:center">
-  <a href="https://umfrage.uni-leipzig.de/index.php/695328?lang=de">
-    <img src="images/qr-erwachsene.png" width="150px"><br>
-    <strong>Einverständniserklärung<br>Erwachsene</strong>
-  </a>
-</div>
+::: {layout-ncol=2}
+
+
+::: {.column}
+::: {.text-center}
+[![](images/qr-erwachsene.png){width=50%}  
+**Einverständniserklärung  
+Erwachsene**](https://umfrage.uni-leipzig.de/index.php/695328?lang=de)
+:::
 :::
 
-::: column
-<div style="text-align:center">
-  <a href="https://umfrage.uni-leipzig.de/index.php/998151?lang=de">
-    <img src="images/qr-kind.png" width="150px"><br>
-    <strong>Einverständniserklärung<br>Kind (ab 13 Jahren)</strong>
-  </a>
-</div>
+::: {.column}
+::: {.text-center}
+[![](images/qr-kind.png){width=50%}  
+**Einverständniserklärung  
+Kind (ab 13 Jahren)**](https://umfrage.uni-leipzig.de/index.php/998151?lang=de)
+:::
 :::
 
 :::
 
+::::
 
-:::
 
 :::: {.content-block}
 
 Wenn Sie weitere Fragen zur Datenspeicherung oder zum Datenschutz haben, können Sie sich jederzeit an **Dr. Jacqueline Kroh** ([ jacqueline.kroh@lifbi.de ](mailto:jacqueline.kroh@lifbi.de), [ +49 951 700600-25 ](tel:+4995170060025)) des Leibniz-Institutes für Bildungsverläufe oder an **Dr. Stephan Poppe** ([ stephan.poppe@uni-leipzig.de ](mailto:stephan.poppe@uni-leipzig.de), [ +49 951 700600-25 ](tel:+4995170060025)) an der Universität Leipzig wenden.
 
 ::::
+
+
+
 
 
 
